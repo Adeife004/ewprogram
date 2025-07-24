@@ -23,11 +23,10 @@
 </template>
 
 <script>
-import Contactcards from '@/components/contactcards.vue';
+
 export default {
   name: 'ContactView',
   components: {
-    Contactcards
   }
 }
 </script>
