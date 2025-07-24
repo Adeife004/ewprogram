@@ -16,12 +16,19 @@
     </div>
   </div>
   </div>
+  <div>
+  <contactcards/>
+  </div>
 
 </template>
 
 <script>
+import Contactcards from '@/components/contactcards.vue';
 export default {
   name: 'ContactView',
+  components: {
+    Contactcards
+  }
 }
 </script>
 
@@ -155,7 +162,7 @@ export default {
 .input_inside_1 input,
 .input_inside_2 input
 {
-   height: 8vh;
+   height: 7vh;
 }
 }
 

@@ -7,6 +7,7 @@ import Community from '@/components/Community.vue'
 import Questions from '@/components/Questions.vue'
 import Accordion from '@/components/Accordion.vue'
 import newsletter from '@/components/newsletter.vue'
+import contactcards from '@/components/contactcards.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,6 +64,11 @@ const router = createRouter({
       path: '/newsletter',
       name: 'newsletter',
       component: newsletter,
+    },
+    {
+      path: '/contactcards',
+      name: 'contactcards',
+      component: contactcards,
     },
   ],
 })

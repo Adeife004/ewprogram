@@ -123,6 +123,7 @@ export default {
 
   .container{
     padding-top: 6.5cm;
+    padding: 20px 40px;
     flex-direction: column;
     /* background-size: contain; */
     height: 190vh;
