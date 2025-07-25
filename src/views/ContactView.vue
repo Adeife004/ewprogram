@@ -16,12 +16,20 @@
     </div>
   </div>
   </div>
+  <div>
+    <Cards/>
+  </div>
 
 </template>
 
 <script>
+import Cards from '@/components/Cards.vue';
+
 export default {
   name: 'ContactView',
+  components:{
+    Cards,
+  }
 }
 </script>
 
