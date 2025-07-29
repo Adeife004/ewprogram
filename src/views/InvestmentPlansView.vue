@@ -2,11 +2,17 @@
   <div>
     <h1>Investment Plans</h1>
   </div>
+  <TopInvestors/>
 </template>
 
 <script>
+import TopInvestors from '@/components/TopInvestors.vue';
+
 export default {
   name: 'InvestmentPlansView',
+  components:{
+    TopInvestors
+  }
 }
 </script>
 

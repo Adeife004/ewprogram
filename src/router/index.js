@@ -7,6 +7,7 @@ import Community from '@/components/Community.vue'
 import Questions from '@/components/Questions.vue'
 import Accordion from '@/components/Accordion.vue'
 import Cards from '@/components/Cards.vue'
+import TopInvestors from '@/components/TopInvestors.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+    },
+    {
+      path:'/TopInvestors',
+      name: 'TopInvestors',
+      component: TopInvestors,
     },
     {
       path: '/investment-plans',
