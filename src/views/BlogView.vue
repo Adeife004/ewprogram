@@ -41,11 +41,13 @@
     </div>
   </div>
  </div>
-</template>
+  <BlogList />
 
 <script>
+import BlogList from '../components/BlogList.vue'
 export default {
   name: 'BlogView',
+  components: { BlogList },
 }
 </script>
 

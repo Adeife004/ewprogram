@@ -13,6 +13,13 @@ export default {
   components:{
     TopInvestors
   }
+  <Plans />
+
+<script>
+import Plans from '../components/Plans.vue'
+export default {
+  name: 'InvestmentPlansView',
+  components: { Plans },
 }
 </script>
 

@@ -3,7 +3,7 @@
     <div class="footer-container">
       <div class="footer-main">
         <div class="footer-brand">
-          <h2>EWProgram</h2>
+          <h2>CryptoHarvest</h2>
           <p>Building smarter digital solutions with passion and purpose.</p>
         </div>
         <div class="footer-links">
@@ -19,7 +19,7 @@
         <div class="footer-contact">
           <h4>Contact Us</h4>
           <ul>
-            <li><i class="fas fa-envelope"></i> info@ewprogram.com</li>
+            <li><i class="fas fa-envelope"></i> info@cryptoharvest.com</li>
             <li><i class="fas fa-phone"></i> +1 234 567 890</li>
             <li><i class="fas fa-map-marker-alt"></i> 123 Main St, City, Country</li>
           </ul>
@@ -36,7 +36,11 @@
       </div>
       <div class="footer-bottom">
         <hr />
-        <p>&copy; {{ new Date().getFullYear() }} EWProgram. All rights reserved.</p>
+        <p class="footer-tagline">
+          CryptoHarvest Investment Trading — Experience the power of smart, safe, and profitable
+          trading.
+        </p>
+        <p>&copy; {{ new Date().getFullYear() }} CryptoHarvest. All rights reserved.</p>
       </div>
       <button
         class="scroll-top"
@@ -218,6 +222,14 @@ export default {
 
 .scroll-top:hover {
   transform: scale(1.1);
+}
+
+.footer-tagline {
+  margin-top: 8px;
+  color: #ffa600;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
